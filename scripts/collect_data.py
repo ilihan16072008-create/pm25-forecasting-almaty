@@ -10,7 +10,7 @@ import requests
 
 API_KEY = os.environ.get("IQAIR_API_KEY")
 CITY = "Almaty"
-STATE = "Almaty"
+STATE = "Almaty Oblysy"
 COUNTRY = "Kazakhstan"
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
