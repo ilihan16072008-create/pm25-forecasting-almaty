@@ -45,9 +45,8 @@ def load_all_parts() -> pd.DataFrame:
 
 
 def clean_and_pivot(df: pd.DataFrame) -> pd.DataFrame:
-    """Убирает дубликаты, разворачивает в широкий формат по времени."""
 
-    # убирает дубликаты
+  
     before = len(df)
     df = df.drop_duplicates(subset=["datetimeUtc", "parameter", "value"])
     print(f"Убрано дубликатов: {before - len(df)}")
@@ -79,7 +78,7 @@ def main():
           f"{result['datetimeUtc'].min()} по {result['datetimeUtc'].max()}")
     print(f"Колонки: {list(result.columns)}")
 
-    # проверка пропусков
+
     expected_hours = pd.date_range(
         start=result["datetimeUtc"].min(),
         end=result["datetimeUtc"].max(),
