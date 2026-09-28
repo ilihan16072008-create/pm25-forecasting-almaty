@@ -92,9 +92,12 @@ python scripts/model_plots.py
  One monitoring station
  
  No weather forecasts used as input
+ 
+## Paper
+
+The full research paper: [PM2.5ALA_paper.pdf](PM2.5ALA_paper.pdf)
 
 ## Author
-
 Ilikhan Mussayev, Grade 11, Gymnasium No. 15, Almaty, Kazakhstan
 
 ## Credits
