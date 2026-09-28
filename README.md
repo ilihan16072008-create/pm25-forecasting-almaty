@@ -92,6 +92,12 @@ python scripts/model_plots.py
  One monitoring station
  
  No weather forecasts used as input
+
+## Integration
+
+The winning method 24-hour moving average is now live in the Telegram bot as the `/forecast` command:
+[almaty-air-bot](https://github.com/ilihan16072008-create/almaty-air-bot)
+Note: the IQAir free tier returns AQI but not PM2.5 concentration, so the bot forecasts AQI using the same moving-average method that won here.
  
 ## Paper
 
